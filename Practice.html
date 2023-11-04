@@ -4,6 +4,7 @@
        <title>HTML PRACTICE</title>
         <link rel="stylesheet" href="Practice.css">
         <script src = "practice.js"></script>
+        <meta http-equiv = "Set-Cookie" content = "name:Harry; Max-age = 86400> 
     </head> 
 
     <body style="font-family:Verdana;color:red;font-size:16px;">
@@ -16,7 +17,7 @@
          inside the <em>div</em> tags and explain why.</p>
 
         <div id = "first div">
-            <p>We have added the <em>div</em> tags outside the <em>p</em> tags in case we later want to to perform 
+            <p style="width: 50%; font-style: normal">We have added the <em>div</em> tags outside the <em>p</em> tags in case we later want to to perform 
                certain operations only to this paragraph or a set of paragraphs within this <strong>div</strong> tags</p> 
             <P>Here is our second paragraph within the div. We can have more than one tag of the same type and to differentiate
                it from any other in case of an operation we can assign a value inside of the openig tag and use that as a reference
@@ -31,6 +32,18 @@
         <img src="me.gif" alt="picture of wonderful me">
 
         <script>alert('You are almost there');</script>
+
+     <style>
+         .out { border: thick dashed red;
+          width: 15em;
+          margin-left: 3em }
+         .in { border: thin dotted blue;
+          padding: 12px 6px 4px 2px;
+          margin: 2px 4px 6px 12px }
+     </style>
+     <div class="out">
+          <div class="in"> The truth is rarely pure and never simple. </div>
+     </div>
 
         <div>
             <!-- Creating a list that shows the order in which things are done-->
@@ -55,6 +68,37 @@
            <dd>The Two Towers</dd>
            <dt>Volume 3</dt>
            <dd>The Return of the King</dd></dl>
+      </div>
+
+        <div style="position: relative">
+      <main id="content">
+          <h4>Internet Marketplaces</h4>
+          <p>Top online marketplaces include e-Bay, Amazon,
+          Craigslist and Alibaba.</p>
+      </main>
+      <nav class="links">
+          <a href="http://www.ebay.com">eBay</a> <br>
+          <a href="http://www.amazon.com">Amazon</a> <br>
+          <a href="http://www.craigslist.com">Craigslist</a> <br>
+          <a href="http://www.alibaba.com">Alibaba</a>
+      </nav>
+  </div>
+  <div>
+        <table id="t1">
+             <colgroup> <col id="col1"/> <col/> </colgroup>
+                <tr>
+                     <td class="c1">Sunday</td> <td>red top</td> <td>Sunday Post</td>
+                 </tr>
+                 <tr id="row2">
+                    <td class="c1">Daily</td> <td>broadsheet</td> <td>The Times</td>
+                 </tr>
+                 <tr>
+                     <td class="c1">Daily</td> <td>red top</td> <td>The Sun</td>
+                 </tr>
+                <tr>
+                  <td class="c1">Sunday</td> <td>broadsheet</td> <td>Sunday Times</td>
+                </tr>
+             </table>
       </div>
     </body>
 
