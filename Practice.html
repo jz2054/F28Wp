@@ -4,26 +4,46 @@
        <title>HTML PRACTICE</title>
         <link rel="stylesheet" href="Practice.css">
         <script src = "practice.js"></script>
+        <meta http-equiv = "Set-Cookie" content = "name:Harry; Max-age = 86400> 
     </head> 
 
-    <body>
+    <body style="font-family:Verdana;color:red;font-size:16px;">
         <h1>My First Webpage</h1>
 
         <button type = "button" onclick = "alert('This is my first Webpage')">click me</button>
 
-        <p>This are the tags used to reperesent/identify or structure a paragraph in HTML.Note that this is the first
+        <p style="color:blue;">This are the tags used to reperesent/identify or structure a paragraph in HTML.Note that this is the first
         paragraph that is going to appear on my webpage when run on the browser.Below I am going going to put another paragraph
          inside the <em>div</em> tags and explain why.</p>
 
         <div id = "first div">
-            <p>We have added the <em>div</em> tags outside the <em>p</em> tags in case we later want to to perform 
-        certain operations only to this paragraph or a set of paragraphs within this <strong>div</strong> tags</p> 
-        <P>Here is our second paragraph within the div. We can have more than one tag of the same type and to differentiate
-        it from any other in case of an operation we can assign a value inside of the openig tag and use that as a reference
-        . We shall see this when we style or interact with our page usin CSS and javascript respectively.</P>
+            <p style="width: 50%; font-style: normal">We have added the <em>div</em> tags outside the <em>p</em> tags in case we later want to to perform 
+               certain operations only to this paragraph or a set of paragraphs within this <strong>div</strong> tags</p> 
+            <P>Here is our second paragraph within the div. We can have more than one tag of the same type and to differentiate
+               it from any other in case of an operation we can assign a value inside of the openig tag and use that as a reference
+              . We shall see this when we style or interact with our page usin CSS and javascript respectively.</P>
         </div>
 
+        <div>
+        <a href="4.xhtml">Links</a> 
+        <a href="6.xhtml"><img src="next.gif" alt="icon"></a>
+        <a href="9.xhtml#icon">target</a>
+       </div>
+        <img src="me.gif" alt="picture of wonderful me">
+
         <script>alert('You are almost there');</script>
+
+     <style>
+         .out { border: thick dashed red;
+          width: 15em;
+          margin-left: 3em }
+         .in { border: thin dotted blue;
+          padding: 12px 6px 4px 2px;
+          margin: 2px 4px 6px 12px }
+     </style>
+     <div class="out">
+          <div class="in"> The truth is rarely pure and never simple. </div>
+     </div>
 
         <div>
             <!-- Creating a list that shows the order in which things are done-->
@@ -40,6 +60,46 @@
             <li>Sleep</li>
             <li>cook</li>
         </ul>
+
+      <div><dl>
+           <dt>Volume 1</dt>
+           <dd>The Fellowship of the Ring</dd>
+           <dt>Volume 2</dt>
+           <dd>The Two Towers</dd>
+           <dt>Volume 3</dt>
+           <dd>The Return of the King</dd></dl>
+      </div>
+
+        <div style="position: relative">
+      <main id="content">
+          <h4>Internet Marketplaces</h4>
+          <p>Top online marketplaces include e-Bay, Amazon,
+          Craigslist and Alibaba.</p>
+      </main>
+      <nav class="links">
+          <a href="http://www.ebay.com">eBay</a> <br>
+          <a href="http://www.amazon.com">Amazon</a> <br>
+          <a href="http://www.craigslist.com">Craigslist</a> <br>
+          <a href="http://www.alibaba.com">Alibaba</a>
+      </nav>
+  </div>
+  <div>
+        <table id="t1">
+             <colgroup> <col id="col1"/> <col/> </colgroup>
+                <tr>
+                     <td class="c1">Sunday</td> <td>red top</td> <td>Sunday Post</td>
+                 </tr>
+                 <tr id="row2">
+                    <td class="c1">Daily</td> <td>broadsheet</td> <td>The Times</td>
+                 </tr>
+                 <tr>
+                     <td class="c1">Daily</td> <td>red top</td> <td>The Sun</td>
+                 </tr>
+                <tr>
+                  <td class="c1">Sunday</td> <td>broadsheet</td> <td>Sunday Times</td>
+                </tr>
+             </table>
+      </div>
     </body>
 
 </html>
