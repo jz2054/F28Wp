@@ -1,2 +1,6 @@
-# Practice.html
-This is a file inteded to to demonstrate the essential tags(syntax) used in creating a webpage. In between the tags there is some information written which is what is shown when we run our page on a webbrowser.
+# Practice_Project
+
+The project aims to help refine the user's skills and knowledge on the various tools used in the landscape of web programming through hands on programming.
+It covers programming languages such as JavaScript, HTML and CSS.
+
+The various scripts of the necessary softwares are stored on the repository for demonstration purposes.
