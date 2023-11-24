@@ -1,0 +1,9 @@
+{
+    "name": "Jack",
+    "at"  : true,
+    "grade": "A",
+    "format": {
+          "type": "rect",
+          "width": 2220,
+          "framerate": 24 }
+}
